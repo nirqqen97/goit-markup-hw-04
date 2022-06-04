@@ -104,7 +104,8 @@ body{
 
 .hero{
     background-color: var(--header-background-color);
-    background-image: url(/1/Background.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+    url(../1/Background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -256,6 +257,25 @@ padding-bottom: 94px;
 }
 
 /*---------------------------------team-------------------------*/
+.team-soc-list{
+    display: flex;
+    justify-content: center;
+}
+.team-soc-link{
+    width: 100%;
+    height: 100%;
+    background: tomato;
+    border-radius: 50%;
+    display: block;
+}
+.team-soc-item{
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}
+.team-soc-item:last-child{
+    margin-right: 0px;
+}
 .team-title{
     font-weight: bold;
     font-size: 36px;
@@ -281,7 +301,8 @@ padding-bottom: 94px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color:var(--second-text-color)
+    color:var(--second-text-color);
+    margin-bottom: 16px;
     
     }
     .team-list{
