@@ -203,6 +203,7 @@ color:var(--accent-color)
 .about{
 padding-top: 94px;
 padding-bottom: 94px;
+margin-right: 0px;
 }
 .about-list{
     margin-top: 0px;
