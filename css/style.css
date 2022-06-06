@@ -111,6 +111,7 @@ body{
     background-size: cover;
     padding-bottom: 200px;
     padding-top: 200px;
+
 }
 .header-link{
     display: block;
@@ -196,8 +197,12 @@ color:var(--accent-color)
     background-color: var(--accent-color);
     width: 200px;
     height: 50px;
-    margin-left: 500px;
-   margin-top: 40px;
+    margin-top: 40px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto ;
+    margin-top: 30px;
 }
 /*---------------------------------about-------------------------*/
 .about{
@@ -324,6 +329,7 @@ margin-left: 0px;
         padding-top: 30px;
         padding-bottom: 30px;
     }
+
 /*---------------------------------contacts-------------------------*/
 .contacts-list{
     display: block;
