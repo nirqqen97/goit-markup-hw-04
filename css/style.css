@@ -271,7 +271,9 @@ margin-left: 0px;
     height: 100%;
     background: tomato;
     border-radius: 50%;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .team-soc-item{
     width: 44px;
