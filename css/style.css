@@ -132,8 +132,13 @@ body{
     padding-bottom: 32px;
 
 }
-.header-tel::before{
+.header-tel:before{
     content:"";
+    background-image: url(../1/Vector.jpg);
+    background-size: cover;
+    width: 10px;
+    height: 16px;
+
 }
 .header-contacts{
     display: flex;
