@@ -130,14 +130,17 @@ body{
     color:var(--second-text-color);
     padding-top: 32px;
     padding-bottom: 32px;
+    align-items: center;
 
 }
 .header-tel:before{
     content:"";
-    background-image: url(../1/Vector.jpg);
+    background-image: url(../1/envelope.png);
     background-size: cover;
-    width: 10px;
-    height: 16px;
+    width: 16px;
+    height: 12px;
+    background-position: center;
+    margin-right: 10px;
 
 }
 .header-contacts{
@@ -150,6 +153,28 @@ body{
     padding-top: 32px;
     padding-bottom: 32px;
 }
+.header-contacts:hover,
+.header-contacts:focus{
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header-contacts::before{
+        content:"";
+        background-image: url(../1/Vector.jpg);
+        background-size: cover;
+        width: 10px;
+        height: 16px;
+        background-position: center;
+        margin-right: 10px;
+}
+
 .header-link:hover {
 color:var(--accent-color)
 }
