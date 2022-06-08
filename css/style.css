@@ -132,6 +132,9 @@ body{
     padding-bottom: 32px;
 
 }
+.header-tel::before{
+    content:"";
+}
 .header-contacts{
     display: flex;
     font-weight: 500;
