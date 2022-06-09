@@ -236,15 +236,26 @@ color:var(--accent-color)
     margin-top: 30px;
 }
 /*---------------------------------about-------------------------*/
-.about-square{
+.about-square-item{
     width: 270px;
     height: 120px;
+    margin-left: 30px;
+    margin-bottom: 30px;
     background-color:var(--team-background-color);
+    background-image: url(../1/antenna\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+.about-square-list{
+    display: flex;
+}
+
+
 .about{
-padding-top: 94px;
-padding-bottom: 94px;
-margin-left: 0px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-left: 0px;
 }
 .about-list{
     margin-top: 0px;
