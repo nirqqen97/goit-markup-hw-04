@@ -544,11 +544,12 @@ border: 1px solid #EEEEEE;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 .team-soc-list-footer{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+  
 }
 
 
