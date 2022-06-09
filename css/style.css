@@ -162,7 +162,7 @@ body{
     letter-spacing: 0.02em;
     color: var(--accent-color);
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 32px;   
 }
 
 .header-contacts::before{
@@ -236,6 +236,11 @@ color:var(--accent-color)
     margin-top: 30px;
 }
 /*---------------------------------about-------------------------*/
+.about-square{
+    width: 270px;
+    height: 120px;
+    background-color:var(--team-background-color);
+}
 .about{
 padding-top: 94px;
 padding-bottom: 94px;
