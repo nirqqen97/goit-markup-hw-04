@@ -246,7 +246,6 @@ color:var(--accent-color)
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .about-square-list{
     display: flex;
 }
@@ -538,6 +537,30 @@ border: 1px solid #EEEEEE;
     padding-top: 30px;
 }
 /* ------------------------------------------------------------------footer------------------------------------------------------- */
+.footer-text-slogan{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0.8;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.team-soc-list-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.footer-content{
+    width: 376px;
+    height: 112px;
+    margin-left: 70px;
+}
+.footer .container{
+    display: flex;
+    align-items: baseline;
+}
 .footer{
     padding-bottom: 60px;
     padding-top: 60px;
