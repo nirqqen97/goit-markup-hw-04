@@ -238,7 +238,7 @@ color:var(--accent-color)
 /*---------------------------------about-------------------------*/
 .about-link{
     width: 100%;
-    height: 100%;
+    height: 70px;
     align-items: center;
     justify-content: center;
 }
