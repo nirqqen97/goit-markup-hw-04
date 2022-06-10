@@ -236,9 +236,10 @@ color:var(--accent-color)
     margin-top: 30px;
 }
 /*---------------------------------about-------------------------*/
-.about-link{
+
+.about-soc-link{
     width: 100%;
-    height: 70px;
+    height: 100%;
     align-items: center;
     justify-content: center;
 }
