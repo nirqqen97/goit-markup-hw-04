@@ -236,9 +236,15 @@ color:var(--accent-color)
     margin-top: 30px;
 }
 /*---------------------------------about-------------------------*/
+.about-soc-icon{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
 .about-square{
     display: flex;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 .about-square-item{
     width: 270px;
