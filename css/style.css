@@ -529,8 +529,10 @@ address {
     
 
 }
-.porfolio-hero-item1:focus{
-    border: 1px solid #EEEEEE;
+.porfolio-hero-item1:focus,
+.porfolio-hero-item1:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
 }
 .porfolio-hero-item1:nth-child(n+7){
     margin-bottom: 0px;
@@ -681,4 +683,10 @@ address {
 .client-item:hover .client-soc-icon,
 .client-item:focus .client-soc-icon{
     fill: var(--accent-color);
+}
+.header-list1 .header-contacts:focus,
+.header-list1 .header-contacts:hover,
+.header-list1 .header-tel:focus,
+.header-list1 .header-tel:hover{
+    color: var(--accent-color);
 }
