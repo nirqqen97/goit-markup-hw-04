@@ -128,6 +128,7 @@ body{
     padding-bottom: 32px; */
     align-items: center;
     flex-wrap: nowrap;
+    
 }
 
 
@@ -140,6 +141,11 @@ body{
     color:var(--second-text-color);
     padding-top: 32px;
     padding-bottom: 32px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 .header-contacts:hover,
 .header-contacts:focus{
@@ -188,9 +194,23 @@ color:var(--accent-color)
 .header-soc-icon:focus,
 .header-soc-icon:hover{
     fill: var(--accent-color);
-
 }
-
+.header-soc-icon:focus .header-contacts,
+.header-soc-icon:hover .header-contacts{
+    color: var(--accent-color);
+}
+.header-contacts:hover .header-soc-icon,
+.header-contacts:focus .header-soc-icon{
+    fill: var(--accent-color);
+}
+.header-soc-icon:focus .header-tel,
+.header-soc-icon:hover .header-tel{
+    color: var(--accent-color);
+}
+.header-tel:hover .header-soc-icon,
+.header-tel:focus .header-soc-icon{
+    fill: var(--accent-color);
+}
 .header-tel:focus,
 .header-tel:hover{
     color: var(--accent-color);
@@ -246,7 +266,7 @@ color:var(--accent-color)
     height: 120px;
     background: #F5F4FA;
     border-radius: 4px;
-    margin-left: 30px;
+    margin-bottom: 30px;
     align-items: center;
     
     justify-content: center;
@@ -694,12 +714,7 @@ address {
 .client-item:focus .client-soc-link{
     fill: var(--accent-color);
 }
-.header-list1 .header-contacts:focus,
-.header-list1 .header-contacts:hover,
-.header-list1 .header-tel:focus,
-.header-list1 .header-tel:hover{
-    color: var(--accent-color);
-}
+
 .footer-slogan{
     margin-left: 70px;
 }
