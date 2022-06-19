@@ -106,6 +106,7 @@ body{
     padding-bottom: 200px;
     padding-top: 200px;
     width: 1600px;
+    margin: 0 auto;
 }
 .header-link{
     display: block;
@@ -387,7 +388,7 @@ color:var(--accent-color)
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-  padding-bottom: 50px;
+    margin-bottom: 50px;
     
 }
 .team-item-title{
@@ -397,7 +398,7 @@ color:var(--accent-color)
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 .team-item-text{
     font-weight: normal;
@@ -593,14 +594,7 @@ address {
     padding-top: 30px;
 }
 /* ------------------------------------------------------------------footer------------------------------------------------------- */
-.team-soc-link-footer:hover .team-soc-icon,
-.team-soc-link-footer:focus .team-soc-icon{
-    fill: #FFFFFF;
-}
-.team-soc-link-footer:hover ,
-.team-soc-link-footer {
-    background-color: var(--accent-color);
-}
+
 .team-soc-link-footer{
     width: 100%;
     height: 100%;
@@ -655,9 +649,7 @@ address {
     
 }
 /* -------------------------------------------------CLIENT-------------------------------------------------- */
-/* .client-soc-icon{
-    fill: var(--icon-color);
-} */
+
 .client-soc-link{
     fill: var(--icon-color);
 }
@@ -713,11 +705,22 @@ address {
 .client-item:hover .client-soc-link,
 .client-item:focus .client-soc-link{
     fill: var(--accent-color);
+    
 }
+
 
 .footer-slogan{
     margin-left: 70px;
 }
 .footer-soc-icon{
     fill: #FFFFFF;
+}
+.team-soc-link-footer:hover .team-soc-icon,
+.team-soc-link-footer:focus .team-soc-icon{
+    fill: #FFFFFF;
+}
+.team-soc-link-footer:hover ,
+.team-soc-link-footer:focus{
+    background-color: var(--accent-color);
+    
 }
